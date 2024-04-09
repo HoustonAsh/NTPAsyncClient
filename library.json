@@ -1,8 +1,8 @@
 {
-    "name": "NTPFastAsyncClient",
+    "name": "NTPAsyncClient",
     "version": "0.0.1",
     "description": "This is a simple library to fetch real time using NTP servers. It is based on the arduino-libraries/NTPClient@^3.2.1 library.",
-    "keywords": "RTC, NTP, NTPClient, NTPClientAsync, NTPFastAsyncClient",
+    "keywords": "RTC, NTP, NTPClient, NTPClientAsync, NTPAsyncClient",
     "authors": [
         {
             "name": "Dugar Badagarov",
@@ -11,7 +11,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/HoustonAsh/NTPFastAsyncClient.git"
+        "url": "https://github.com/HoustonAsh/NTPAsyncClient.git"
     },
     "frameworks": "arduino",
     "platforms": "*"
