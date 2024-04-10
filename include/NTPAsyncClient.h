@@ -18,7 +18,7 @@ class NTPClient {
     unsigned int  _port           = NTP_DEFAULT_LOCAL_PORT;
     long          _timeOffset     = 0;
 
-    unsigned long _updateInterval = 60000;  // In ms
+    unsigned long _updateInterval = 3600000;  // 1h in ms
 
     bool          _needUpdate     = true;
     unsigned long _sendTime       = 0;
@@ -63,7 +63,7 @@ class NTPClient {
 
     /**
      * This should be called in the main loop of your application. By default an update from the NTP Server is only
-     * made every 60 seconds. This can be configured in the NTPClient constructor.
+     * made every 1 hour. This can be configured in the NTPClient constructor.
      *
      * @return true on success, false on failure
      */
