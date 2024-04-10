@@ -1,7 +1,7 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
-#include "NTPClient.h"
+#include "NTPAsyncClient.h"
 
 #define SSID "<your-ssid>"
 #define PASSWORD "<your-password>"

@@ -1,6 +1,6 @@
 {
     "name": "NTPAsyncClient",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "This is a simple library to fetch real time using NTP servers. It is based on the arduino-libraries/NTPClient@^3.2.1 library.",
     "keywords": "RTC, NTP, NTPClient, NTPClientAsync, NTPAsyncClient",
     "authors": [
